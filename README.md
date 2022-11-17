@@ -25,7 +25,7 @@ U = -1 points
 Run the tests by using:
 
 ```shell
-ruby gpa-test.ruby
+ruby gpa-test.rB
 ```
 
 You'll see a bunch of failing output.
@@ -49,15 +49,15 @@ You'll see a bunch of failing output.
 
 ---------- Emma ----------
 ❌ GPA: expected '2.4' but got '0'
-❌ ANNOUNCEMENT: expected 'Beryl scored an average of 2.4' but got '' 
+❌ ANNOUNCEMENT: expected 'Emma scored an average of 2.4' but got '' 
 
 ---------- Frida ----------
 ❌ GPA: expected '0.3' but got '0'
-❌ ANNOUNCEMENT: expected 'Beryl scored an average of 0.3' but got '' 
+❌ ANNOUNCEMENT: expected 'Frida scored an average of 0.3' but got '' 
 
 ---------- Gary ----------
 ❌ GPA: expected '0.4' but got '0'
-❌ ANNOUNCEMENT: expected 'Beryl scored an average of 0.4' but got '' 
+❌ ANNOUNCEMENT: expected 'Gary scored an average of 0.4' but got '' 
 ```
 
 Now make it work! You only need to change the `Calculator` class to make the output "go green".
